@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from app.database import get_db
 from app.models import Train, Seat, Client, Reservation
-from app.rest_api.schemas import TrainResponse, GroupedSeatsResponse, SeatResponse, ReservationResponse
+from app.api_b.schemas import TrainResponse, GroupedSeatsResponse, SeatResponse, ReservationResponse
 from typing import List, Optional
 from datetime import datetime
 
