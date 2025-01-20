@@ -6,7 +6,7 @@ from datetime import datetime
 # Schema for seat information
 class SeatResponse(BaseModel):
     seat_id: int
-    train_id: int  # Added train_id
+    train_id: int  
     seat_class: str
     fare: float
     status: str
